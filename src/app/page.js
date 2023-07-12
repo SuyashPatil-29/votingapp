@@ -25,7 +25,7 @@ const Page = () => {
   console.log(votes);
 
   return (
-    <div className="grid grid-cols-4 gap-4 h-screen place-content-center w-screen pl-[250px]">
+    <div className="grid md:grid-cols-4 md:gap-6 grid-cols-1 gap-4 md:mt-0 my-12 min-h-screen place-content-center max-w-[80vw] mx-auto">
       {voters.map((voter) => (
         <VoterDisplay voter={voter} key={voter.name} />
       ))}
