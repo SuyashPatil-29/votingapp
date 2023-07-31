@@ -20,7 +20,7 @@ const Page = () => {
         )
        })}
 
-       <button onClick={handleClearLocalStorage}>Clear To Set Votes to 0</button>
+       <button onClick={handleClearLocalStorage} className='text-white'>Clear To Set Votes to 0</button>
     </div>
   )
 }
