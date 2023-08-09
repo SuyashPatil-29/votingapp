@@ -21,6 +21,12 @@ const groups = {
                 type: 'string',
                 title: 'Name'
               },
+              {
+                name: 'votes',
+                type: 'number',
+                title: 'Votes',
+                initialValue: 0
+              }
             ]
         }
     ]
